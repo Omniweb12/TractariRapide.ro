@@ -1,0 +1,169 @@
+Creeaza un proiect web static, performant si SEO-friendly pentru domeniul tractarirapideconstanta.ro. Structura de fisiere:
+
+index.html (landing page principal, responsive, semantic HTML5)
+
+styles.css (stil modern, curat; foloseste CSS modern, fara framework)
+
+script.js (doar pentru micile interactiuni: scroll to, ancorare butoane)
+
+sitemap.xml (complet, cu URL-urile principale)
+
+robots.txt (permite indexare, indica sitemap)
+
+folder assets/ cu o imagine reprezentativa profesionala (placeholder cu un autoturism pe platforma; foloseste o imagine stock royalty-free sau un placeholder URL si descriere alt relevanta)
+
+Reguli generale de continut si SEO (FOARTE IMPORTANT):
+
+Toate textele in romana fara diacritice.
+
+Titlu pagina (title): “Tractari Auto Constanta – Rapide 24/7 in tot judetul | Tractari Rapide Constanta”.
+
+Meta description clar, cu call-to-action si cuvinte cheie: “Tractari auto rapide non-stop in Constanta si tot judetul. Platforma auto, asistenta rutiera, transport autovehicule 24/7. Sunati: +40 733 453 643.”
+
+Open Graph si Twitter Card tags (og:title, og:description, og:image, og:url).
+
+JSON-LD LocalBusiness (AutoTowing) cu: nume “Tractari Rapide Constanta”, telefon +40 733 453 643, areaServed “Constanta, Dobrogea, Judetul Constanta”, openingHours “Mo-Su 00:00-23:59”, sameAs (gol sau exemplu), url domeniul mentionat.
+
+Heading-uri ierarhizate corect (H1, H2, H3), texte naturale, fara keyword stuffing; include “Tractari Constanta”, “Dobrogea”, “Judetul Constanta” acolo unde e natural.
+
+Linkurile click-to-call si WhatsApp:
+
+Call: tel:+40733453643
+
+WhatsApp: https://wa.me/40733453643
+
+Telefonul afisat mereu ca +40 733 453 643.
+
+Design & layout:
+
+Header sticky cu logo text (Tractari Rapide Constanta), meniu (Acasa, Servicii, Zone, Tarife, Despre, Contact) si doua CTA vizibile:
+
+Buton “Suna acum” care apeleaza tel:+40733453643 si afiseaza numarul.
+
+Buton “WhatsApp” catre https://wa.me/40733453643.
+
+Hero section cu titlu puternic, subtitlu scurt, bullet points (non-stop 24/7, echipaj rapid, platforma auto), plus aceleasi doua CTA mari.
+
+O imagine reprezentativa profesionala cu un autoturism tractat (alt: “Platforma auto – tractari rapide in Constanta”).
+
+Sectiune Servicii (listeaza clar, cu iconite simple din CSS sau SVG):
+
+Tractari auto in Constanta si judet (24/7)
+
+Transport autoturisme pe platforma
+
+Asistenta rutiera (pana, baterie descarcata, lipsa combustibil)
+
+Deblocare si recuperare vehicule
+
+Tractare din parcari sub/supraterane (acolo unde accesul permite)
+
+Transport auto avariate / nefunctionale
+
+Tractare utilaje mici ATV/UTV/motociclete (dacă relevant)
+
+Tractari interurbane si nationale la cerere
+
+Sectiune Zone acoperite (H2 + text scurt) si lista cu localitati importante din Judetul Constanta (listeaza pe coloane pentru lizibilitate):
+
+Constanta, Mangalia, Medgidia, Navodari, Ovidiu, Cernavoda, Harsova, Eforie Nord, Eforie Sud, Techirghiol, Negru Voda, Murfatlar (Basarabi), Valu lui Traian, Cumpana, Mihail Kogalniceanu, Agigea, Lumina, Poarta Alba, Castelu, Topraisar, Cobadin, Tuzla, Costinesti, 23 August, Limanu, Pecineaga, Albesti, Crucea.
+
+Sectiune De ce noi (bullet points: interventie rapida, dispecerat 24/7, pret corect, asigurare, echipamente omologate).
+
+Sectiune Tarife (explica transparent: tarif de baza in oras, cost pe km in afara, taxe suplimentare pentru operatiuni speciale; adauga butoane “Cere oferta” si “Suna acum”).
+
+Sectiune Recenzii (3–5 testimoniale placeholder, stil credibil).
+
+Sectiune FAQ cu intrebari frecvente: timp de sosire, ce informatii sa ofere clientul, daca se emite factura, cum se calculeaza tariful, non-stop.
+
+Footer cu:
+
+Nume firma (Tractari Rapide Constanta)
+
+Telefon click-to-call: link vizibil tel:+40733453643
+
+WhatsApp: https://wa.me/40733453643
+
+Email placeholder
+
+Adresa generica Constanta
+
+Program: Non-stop
+
+Linkuri utile (Privacy, Termeni)
+
+Credit: WebDesign by Omniweb cu link catre https://omniweb.ro
+
+Asigura contrast bun, butoane evidente, spacing generos, font system, design profesional, complet responsive (mobile-first).
+
+Continut SEO (include-l in sectiunile potrivite, in texte naturale, fara diacritice):
+
+Paragrafe scurte cu expresii: “tractari auto Constanta”, “platforma auto Constanta”, “asistenta rutiera non-stop”, “interventii rapide in Dobrogea si Judetul Constanta”.
+
+Adauga “Tractari Constanta, Dobrogea, Judetul Constanta” in zone relevante (hero, footer, meta tags).
+
+Ancore interne catre sectiuni (#servicii, #zone, #tarife, #faq, #contact).
+
+Accesibilitate si performanta:
+
+Atribute alt pentru imagini, aria-label pe butoane, marimi font >=16px.
+
+Lazy-loading pentru imagini, minify CSS/JS (daca e posibil simplu).
+
+Fara biblioteci inutile; cod curat.
+
+index.html – cerinte cheie:
+
+H1: “Tractari Auto Constanta – Rapide 24/7 in tot judetul”
+
+CTA butoane: “Suna acum” (tel) si “WhatsApp” (wa.me)
+
+Sectiuni: Hero, Servicii, Zone acoperite, De ce noi, Tarife, Recenzii, FAQ, Contact, Footer.
+
+Linkuri in header spre sectiuni (ancore).
+
+Include <link rel="canonical" href="https://tractarirapideconstanta.ro/">
+
+Favicon placeholder.
+
+Include styles.css si script.js.
+
+styles.css – cerinte:
+
+Paleta profesionala (fundal deschis, accente inchise; butoane CTA evidente).
+
+Grid/flex pentru layout si liste pe coloane la “Zone acoperite”.
+
+Hover states pentru CTA.
+
+script.js – cerinte:
+
+Ancore smooth scroll.
+
+Daca e pe mobil, fixeaza header si asigura offset corect la scroll.
+
+Evenimente pe butoane CTA (nu pop-up, doar tracking console.log).
+
+sitemap.xml – cerinte:
+
+Include: /, /#servicii, /#zone, /#tarife, /#faq, /#contact
+
+<changefreq>weekly</changefreq>, <priority> corespunzator (0.8 homepage, 0.6 rest).
+
+URL-urile sa aiba domeniul https://tractarirapideconstanta.ro.
+
+robots.txt – cerinte:
+
+User-agent: *
+
+Allow: /
+
+Sitemap: https://tractarirapideconstanta.ro/sitemap.xml
+
+Footer (obligatoriu):
+
+Text clar: “WebDesign by Omniweb” cu link: https://omniweb.ro
+
+Numarul de telefon si WhatsApp apar si in footer, cu “click to call” si link WhatsApp.
+
+La final, asigura-te ca proiectul ruleaza local (index.html deschis corect), codul este valid (HTML/CSS/JS), si ca toate linkurile tel/WhatsApp functioneaza.
