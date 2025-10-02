@@ -205,3 +205,17 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17610734718/ephQCLmf4qUbEP74uc1B',
+      'transaction_id': '',
+      'event_callback': callback
+  });
+  return false;
+}
