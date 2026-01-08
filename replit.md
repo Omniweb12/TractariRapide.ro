@@ -1,6 +1,6 @@
 # Overview
 
-This is a static website for "Tractari Rapide Constanta" (Rapid Towing Constanta), a 24/7 automotive towing service operating in Constanta County, Romania. The site is designed as a single-page landing page optimized for local SEO and lead generation, featuring responsive design and mobile-first approach. The primary goal is to convert visitors into customers through prominent call-to-action buttons for phone calls and WhatsApp messaging.
+This is a static website for "Tractari Rapide Constanta" (Rapid Towing Constanta) Florin Rateanu, a 24/7 automotive towing service operating in Constanta County, Romania. The site is designed as a single-page landing page optimized for local SEO and lead generation, featuring responsive design and mobile-first approach. The primary goal is to convert visitors into customers through prominent call-to-action buttons for phone calls and WhatsApp messaging.
 
 # User Preferences
 
